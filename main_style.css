@@ -1,0 +1,17 @@
+@font-face{
+    font-family: 'Sarabun', sans-serif;
+    src: url("https://fonts.googleapis.com/css?family=Sarabun")
+}
+.info{
+    font-size: 15px;
+}
+.logo-img{
+    width: ค140px;
+    height: 140px;
+}
+.body-content{
+    margin-top: 5rem;
+}
+.right-most{
+    text-align: right;
+}
