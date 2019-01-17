@@ -12,11 +12,14 @@
 
 h1, h2, h3 {
   font-family: "Kanit";
-  margin: 0;
+  margin: 10px 0;
 }
 
 h1 {
   font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
 }
 
 /* Landing section */
@@ -188,11 +191,6 @@ hr {
 }
 .content{
   margin-top:0.5rem;
-}
-h3{
-  font-family: 'Kanit', sans-serif;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
 }
 p{
   font-size: 1.2rem;
