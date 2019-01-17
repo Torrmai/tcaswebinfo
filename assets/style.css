@@ -82,7 +82,6 @@ a.tcas-link {
   font-size: 1.2rem;
 }
 
-
 .tcas-container {
   display: flex;
   flex-direction: column;
@@ -135,6 +134,25 @@ a.tcas-link {
   height: 100%;
 }
 
+@media (max-width: 1250px) {
+  .main-container {
+    width: 100%;
+    padding: 20px;
+    margin: 50px 0;
+  }
+
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  a.tcas-link {
+    margin-bottom: 100px;
+  }
+
+  .info {
+    margin: 35px 0;
+  }
+}
 
 .image {
   width: 250px;
