@@ -3,10 +3,16 @@
   src: url('https://fonts.googleapis.com/css?family=Sarabun');
 }
 
+/* Small font size on small screen */
 @media (max-width: 500px) {
   html {
     font-size: 80%;
   }
+}
+
+/* Landing section */
+.scroll-down {
+  cursor: pointer;
 }
 
 .top-container {

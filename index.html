@@ -24,16 +24,6 @@
       href="https://fonts.googleapis.com/css?family=Kanit"
       rel="stylesheet"
     />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-      crossorigin="anonymous"
-    ></script>
     <title>การคัดเลือกนิสิตเข้าศึกษาต่อในมหาวิทยาลัย</title>
   </head>
 
@@ -45,7 +35,7 @@
       <div class="header-container">
         <h1>การคัดเลือกนิสิตเข้าศึกษาต่อ</h1>
         <h2>สามารถแบ่งเป็นรอบต่างๆได้ดังนี้</h2>
-        <img src="/assets/slidable.svg" alt="slidable" width="60px" />
+        <img class="scroll-down" src="/assets/slidable.svg" alt="slidable" width="60px" />
       </div>
       <div class="top-background"></div>
     </div>
@@ -131,5 +121,17 @@
 
       </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+
+        $(".scroll-down").click(function() {
+          $('html, body').animate({
+            scrollTop: $(window).height()}, 'slow', 'swing', function() {});
+        })
+
+      })
+    </script>
   </body>
 </html>
