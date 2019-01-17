@@ -12,6 +12,9 @@
     font-weight: bold;
     color: red;
 }
+.content{
+    margin-top:0.5rem;
+}
 h3{
     font-family: 'Kanit', sans-serif;
     margin-top: 3rem;
@@ -27,6 +30,12 @@ p{
 }
 .qualification{
     font-size: 1.2rem;
+}
+.warning{
+    color: red;
+    border:3px solid black;
+    width:65%;
+    text-align: center;
 }
 @media (max-width:1070px){
     h1{
