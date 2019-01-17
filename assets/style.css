@@ -2,6 +2,7 @@
   font-family: 'Sarabun', sans-serif;
   src: url('https://fonts.googleapis.com/css?family=Sarabun');
 }
+
 .top-container {
   display: flex;
   flex-direction: column;
@@ -12,14 +13,17 @@
   position: relative;
   background-color: rgba(39, 174, 96, 0.92);
 }
+
 .header-container {
   margin: 0rem 2rem;
 }
+
 .header-container > h1 {
   font-size: 2rem;
   color: aliceblue;
   font-family: 'Kanit';
 }
+
 .header-container > h2 {
   font-size: 1.2rem;
   color: aliceblue;
@@ -51,6 +55,7 @@
   text-align: center;
   margin: 0px !important;
 }
+
 .image {
   width: 250px;
   height: 250px;
@@ -59,6 +64,7 @@
   position: relative;
   border-radius: 2rem;
 }
+
 .logo-img {
   height: 300px;
   position: absolute;
@@ -121,11 +127,13 @@
 hr {
   margin: 0px;
 }
+
 @media (max-width: 1000px) {
   .tcas-container > div:last-child {
     grid-template-rows: 9rem auto;
   }
 }
+
 @media (max-width: 800px) {
   .container {
     grid-template-columns: 1fr;
@@ -133,5 +141,63 @@ hr {
   }
   .tcas-container > div:last-child {
     grid-template-rows: auto auto;
+  }
+}
+
+.back-to-main{
+  margin-right: 1rem;
+}
+#citeria-score{
+  border: 3px solid green;
+  width: 75%;
+}
+#eng{
+  font-size: 0.8rem;
+}
+.highlight{
+  font-weight: bold;
+  color: red;
+}
+.content{
+  margin-top:0.5rem;
+}
+h3{
+  font-family: 'Kanit', sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+h1{
+  text-align: center;
+  font-family: 'Kanit',sans-serif;
+  margin-top: 2rem;
+}
+p{
+  font-size: 1.2rem;
+}
+.qualification{
+  font-size: 1.2rem;
+}
+.warning{
+  color: red;
+  border:3px solid black;
+  width:65%;
+  text-align: center;
+}
+@media (max-width:1070px){
+  h1{
+      font-size: 1.5rem;
+  }
+  .name{
+      width: 150px; 
+      display: inline-block;      
+      overflow: hidden;
+      text-overflow: ellipsis; 
+  }
+  #citeria-score{
+      font-size: 0.65rem;
+      width:100%;
+  }
+  #eng{
+      font-size: 0.55rem;
   }
 }
