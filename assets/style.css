@@ -3,6 +3,12 @@
   src: url('https://fonts.googleapis.com/css?family=Sarabun');
 }
 
+@media (max-width: 500px) {
+  html {
+    font-size: 80%;
+  }
+}
+
 .top-container {
   display: flex;
   flex-direction: column;
@@ -40,7 +46,7 @@
 .top-background {
   position: absolute;
   z-index: -1;
-  background: url(./top_backgound.jpg);
+  background: url(/assets/background.jpg);
   background-position: center;
   background-size: cover;
   top: 0px;
@@ -58,20 +64,15 @@
 
 .image {
   width: 250px;
-  height: 250px;
+  padding: 20px;
   margin-bottom: 2rem;
-  overflow: hidden;
-  position: relative;
-  border-radius: 2rem;
+  border-radius: 10px;
+  background: white;
+}
+.logo-img {
+  width: 100%;
 }
 
-.logo-img {
-  height: 300px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 .dot {
   width: 148px;
   height: 148px;
