@@ -8,6 +8,10 @@
 #eng{
     font-size: 0.8rem;
 }
+.highlight{
+    font-weight: bold;
+    color: red;
+}
 h3{
     font-family: 'Kanit', sans-serif;
     margin-top: 3rem;
